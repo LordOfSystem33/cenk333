@@ -28,7 +28,7 @@ exports.conf = {
 };
 
 exports.help = {
-  name: 'yumruh-at',
+  name: 'yumruk-at',
   description: 'Yumruk Atar.',
-  usage: 'yumruh-at'
+  usage: 'yumruk-at'
 };
