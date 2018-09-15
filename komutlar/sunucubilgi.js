@@ -16,8 +16,6 @@ exports.run = (client, message, params) => {
     .setTimestamp()
     .setAuthor(message.guild.name, message.guild.iconURL)
     .addField('Sunucu Adı:', message.guild.name)
-    .addField('Sunucu ID:', message.guild.id)
-    .addField('Ana kanal:', message.guild.defaultChannel)
     .addField('Sunucu Bölgesi:', message.guild.region)
     .addField('Üye sayısı:', message.guild.memberCount)
     .addField('Sahibi:', message.guild.owner + ' (' + message.guild.ownerID + ')')
